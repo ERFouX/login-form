@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animated Login Page | Pedro Reves</title>
+  <title>PHP Login Form</title>
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -20,8 +20,9 @@
           <a href="#" class="icons"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
         <span>or use your email to registration</span>
-        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Username">
         <input type="email" placeholder="Email">
+        <input type="text" placeholder="PhoneNumber">    
         <input type="password" placeholder="Password">
         <button>Sign Up</button>
       </form>
@@ -39,8 +40,11 @@
         <input type="email" placeholder="Email">
         <input type="password" placeholder="Password">
         <a href="#">Forget your Password?</a>
-        <button>Sign In</button>
-      </form>
+        <div style="display: inline;">            
+            <button>Sign In</button>
+            <a style="margin-left: 15px; color: #512da8;" href="otp.php">Send OTP</a>
+        </div>
+        </form>
     </div>
     <div class="toggle-container">
       <div class="toggle">
