@@ -24,7 +24,7 @@ require_once('config/loader.php');
             <!-- sign-up -->
             <div class="form-container sign-up">
                 <form method="POST" action="config/sign_up.php">
-                    <h1>Create Account</h1>
+                    <h1 class="mb-30">Create Account</h1>
                     <span>or use your email to registration</span>
                     <input type="text" name="username" placeholder="Username" />
                     <input type="email" name="email" placeholder="Email" />
@@ -36,10 +36,10 @@ require_once('config/loader.php');
 
             <!-- sign-in -->
             <div class="form-container sign-in">
-                <form>
-                    <h1>Sign In</h1>
+                <form method="POST" action="config/sign_in.php">
+                    <h1 class="mb-30">Sign In</h1>
                     <span>or use your email/password</span>
-                    <input type="email" placeholder="Email" />
+                    <input type="email" placeholder="Email / Username / Mobile" />
                     <input type="password" placeholder="Password" />
                     <a href="#">Forget your Password?</a>
                     <div style="display: inline;">
