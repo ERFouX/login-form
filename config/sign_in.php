@@ -19,9 +19,9 @@ if (isset($_POST['signin'])){
         $hasUser = $stmt->rowCount();
 
         if ($hasUser){
-            header ("Location: ./login_result.php?loginned=yes");
+            header ("Location: ./login_result.php?loginned=true");
         }else {
-            header("Location: ./login_result.php?usernotfound=yes");
+            header("Location: ./login_result.php?usernotfound=true");
         }
 
     } catch (PDOException $e) {
