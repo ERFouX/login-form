@@ -14,7 +14,7 @@
                     <h1 style="margin-bottom: 30px;">Get OTP Code</h1>
                     <span>Enter Your Phone Number To Recive OTP Code</span>
                     <input type="text" placeholder="PhoneNumber">
-                    <button type="submit" name="email_otp">Send To PhoneNumber</button>
+                    <button type="submit" name="mobile_otp">Send To PhoneNumber</button>
                 </form>
             </div>
             <div class="form-container sign-in">
