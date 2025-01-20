@@ -34,7 +34,7 @@ require_once('config/loader.php');
                     <span>or use your email to registration</span>
                     <input type="text" name="username" placeholder="Username" />
                     <input type="email" name="email" placeholder="Email" />
-                    <input type="text" name="phonenumber" placeholder="PhoneNumber" />
+                    <input type="text" name="mobile" placeholder="Mobile" />
                     <input type="password" name="password" placeholder="Password" />
                     <button type="submit" name="signup">Sign Up</button>
                 </form>
