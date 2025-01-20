@@ -20,7 +20,8 @@ if (isset($_POST['signup'])){
 
     $stmt->execute();
 
-    header('Location: ../index.php');
+    header('Location: ./login_result.php?account_created=true');
+
     }catch(PDOException $e){
         echo "Your Error Massage Is : " . $e->getMessage();
     }
