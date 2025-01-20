@@ -19,6 +19,10 @@
             <div class="alert alert-success">
                 <p>You are Loginned Successfully!</p>
             </div>
+        <?php }else if(isset($_GET['account_created'])){?>
+            <div class="alert alert-info">
+                <p>Your Account Created Successfully</p>
+            </div>
         <?php }?>
 
         <a href="../index.php" class="btn btn-info">Back To Login Form</a>
