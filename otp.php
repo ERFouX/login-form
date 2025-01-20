@@ -14,7 +14,7 @@
                     <h1 style="margin-bottom: 30px;">Get OTP Code</h1>
                     <span>Enter Your Phone Number To Recive OTP Code</span>
                     <input type="text" placeholder="PhoneNumber">
-                    <button>Send To PhoneNumber</button>
+                    <button type="submit" name="email_otp">Send To PhoneNumber</button>
                 </form>
             </div>
             <div class="form-container sign-in">
@@ -22,7 +22,7 @@
                     <h1 style="margin-bottom: 30px;">Get OTP Code</h1>
                     <span>Enter Your Email Address To Recive OTP Code</span>
                     <input type="email" placeholder="Email">
-                    <button>Send To Email</button>
+                    <button type="submit" name="email_otp">Send To Email</button>
                 </form>
             </div>
             <div class="toggle-container">
