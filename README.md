@@ -27,8 +27,7 @@ firefox localhost/login-form
 
 ## I will add the database file soon and explain how to add it.
 
-
-## FA :
+####
 
 ## شروع کنید 
 
@@ -50,8 +49,8 @@ sudo systemctl start nginx.service
 sudo systemctl start mariadb.service
 ```
 
-حالا میتوانید خروجی پروژه را مشاهده کنید برای اینکار کافی است مرورگر خود را باز کنید و وارد آدرس localhost/login-form
+حالا میتوانید خروجی پروژه را مشاهده کنید برای اینکار کافی است مرورگر خود را باز کنید و وارد آدرس localhost/login-form شوید
 ```bash
 firefox localhost/login-form
 ```
-## به زودی فایل دیتابیس را اضافه می کنم و نحوه اضافه کردن آن را توضیح می دهم.
+
