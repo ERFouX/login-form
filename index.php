@@ -28,27 +28,27 @@ require_once('config/loader.php');
             <!-- sign-up -->
             <div class="form-container sign-up">
                 <form method="POST" action="config/sign_up.php">
-                    <h1 class="mb-30">Create Account</h1>
+                    <h1 class="mb-25">Create Account</h1>
                     <span>or use your email to registration</span>
-                    <input type="text" name="username" placeholder="Username" />
-                    <input type="email" name="email" placeholder="Email" />
-                    <input type="text" name="mobile" placeholder="Mobile" />
-                    <input type="password" name="password" placeholder="Password" />
+                    <input type="text" name="username" placeholder="Username" required />
+                    <input type="email" name="email" placeholder="Email" required />
+                    <input type="tel" name="mobile" placeholder="Mobile" pattern="09\d{9}" title="Please enter a valid 11-digit mobile number starting with 09" required />
+                    <input type="password" name="password" placeholder="Password" required />
                     <button type="submit" name="signup">Sign Up</button>
                 </form>
             </div>
 
+
             <!-- sign-in -->
             <div class="form-container sign-in">
                 <form method="POST" action="config/sign_in.php">
-                    <h1 class="mb-30">Sign In</h1>
+                    <h1 class="mb-25">Sign In</h1>
                     <span>or use your email/password</span>
                     <input type="text" name="key" placeholder="Email / Username / Mobile" required />
                     <input type="password" name="password" placeholder="Password" required />
                     <a href="#">Forget your Password?</a>
                     <div style="display: inline;">
                         <button type="submit" name="signin">Sign In</button>
-                        <a style="margin-left: 15px; color: #512da8;" href="otp.php">Send OTP</a>
                     </div>
                 </form>
             </div>
