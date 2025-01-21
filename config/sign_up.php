@@ -1,5 +1,5 @@
 <?php
-require_once('loader.php');
+require_once('database.php');
 if (isset($_POST['signup'])){
     try{
     // Parameters
