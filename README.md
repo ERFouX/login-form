@@ -25,9 +25,6 @@ You can now view the project output. To do this, simply open your browser and go
 firefox localhost/login-form
 ```
 
-## I will add the database file soon and explain how to add it.
-
-####
 
 ## شروع کنید 
 
