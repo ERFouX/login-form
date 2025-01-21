@@ -9,7 +9,7 @@
 
 body{
     background-color: #c9d6ff;
-    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    background: linear-gradient(to right, #e2e2e2, #ffc9c9);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,7 +47,7 @@ body{
 }
 
 .container button{
-    background-color: #512da8;
+    background-color: #640D5F;
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -128,21 +128,6 @@ body{
     }
 }
 
-.social-icons{
-    margin: 20px 0;
-}
-
-.social-icons a{
-    border: 1px solid #ccc;
-    border-radius: 20%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 3px;
-    width: 40px;
-    height: 40px;
-}
-
 .toggle-container{
     position: absolute;
     top: 0;
@@ -161,9 +146,9 @@ body{
 }
 
 .toggle{
-    background-color: #512da8;
+    background-color: #640D5F;
     height: 100%;
-    background: linear-gradient(to right, #5c6bc0, #512da8);
+    background: linear-gradient(to right, #D91656, #640D5F);
     color: #fff;
     position: relative;
     left: -100%;
@@ -211,4 +196,14 @@ body{
 
 .mb-25{
     margin-bottom: 25px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+
+.central-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
 }
