@@ -1,4 +1,4 @@
-<html lang="pt-BR">
+<html lang="EN">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,32 +10,34 @@
     <body>
         <div class="container" id="container">
             <div class="form-container sign-up">
-                <form>    
-                    <h1 style="margin-bottom: 30px;">Get OTP Code</h1>
-                    <span>Enter Your Phone Number To Recive OTP Code</span>
-                    <input type="text" placeholder="PhoneNumber">
-                    <button type="submit" name="mobile_otp">Send To PhoneNumber</button>
+                <form method="POST" action="otp_code_input.php">    
+                    <h1 class="mb-25">Get OTP Code</h1>
+                    <span>Enter Your Mobile Number To Recive OTP Code</span>
+                    <input type="tel" placeholder="Mobile Number" pattern="09\d{9}" title="Please enter a valid 11-digit mobile number starting with 09" required />
+                    <button type="submit" name="mobile_otp">Send</button>
                 </form>
             </div>
             <div class="form-container sign-in">
-                <form>
-                    <h1 style="margin-bottom: 30px;">Get OTP Code</h1>
+                <form method="POST" action="otp_code_input.php">
+                    <h1 class="mb-25">Get OTP Code</h1>
                     <span>Enter Your Email Address To Recive OTP Code</span>
-                    <input type="email" placeholder="Email">
-                    <button type="submit" name="email_otp">Send To Email</button>
+                    <input type="email" placeholder="Email Address" required>
+                    <button type="submit" name="email_otp">Send</button>
                 </form>
             </div>
             <div class="toggle-container">
                 <div class="toggle">
-                    <div class="toggle-panel toggle-left">
-                        <h1>Welcome Back!</h1>
-                        <p>Register with your Personal details to use all of site features</p>
-                        <button class="hidden" id="login">Use Email</button>
+                <div class="toggle-panel toggle-right">
+                        <h1>Need Help?</h1>
+                        <p>Having trouble receiving the code in your email? Try using your mobile number instead.</p>
+                        <button class="hidden" id="register">Use Mobile</button>
+                        <a href="index.php" style="color: white;">Back To Login Form</a>
                     </div>
-                    <div class="toggle-panel toggle-right">
-                        <h1>Hello, Friend!</h1>
-                        <p>Can't get the code via email? Don't worry! Try phone number</p>
-                        <button class="hidden" id="register">Use PhoneNumber</button>
+                    <div class="toggle-panel toggle-left">
+                        <h1>Need Assistance?</h1>
+                        <p>Can't get the code via mobile number? No worries! Try using email address instead.</p>
+                        <button class="hidden" id="login">Use Email</button>
+                        <a href="index.php" style="color: white;">Back To Login Form</a>
                     </div>
                 </div>
             </div>
