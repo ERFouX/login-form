@@ -16,7 +16,8 @@ sudo cp -r login-form /usr/share/nginx/html
 Now, start the required services (nginx and mariadb)
 ```bash
 sudo systemctl start nginx.service
-
+```
+```bash
 sudo systemctl start mariadb.service
 ```
 
@@ -42,7 +43,8 @@ sudo cp -r login-form /usr/share/nginx/html
 حال سرویس های مورد نیاز را اجرا کنید (nginx و mariadb)
 ```bash
 sudo systemctl start nginx.service
-
+```
+```bash
 sudo systemctl start mariadb.service
 ```
 
