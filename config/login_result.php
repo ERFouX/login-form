@@ -35,7 +35,7 @@
                         <div class="alert alert-info">
                             <h1>Your Account Created Successfully</h1>
                         </div>
-                    <?php }?>
+                    <?php } else{ header ("Location: ../index.php"); }?>
 
                     <button>
                         <a href="../index.php" style="color:white;">Back To Login Form</a>
