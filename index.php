@@ -47,9 +47,7 @@ require_once('config/loader.php');
                     <input type="text" name="key" placeholder="Email / Username / Mobile" required />
                     <input type="password" name="password" placeholder="Password" required />
                     <a href="otp.php">Forget your Password?</a>
-                    <div style="display: inline;">
-                        <button type="submit" name="signin">Sign In</button>
-                    </div>
+                    <button type="submit" name="signin">Sign In</button>
                 </form>
             </div>
             <div class="toggle-container">
