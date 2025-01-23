@@ -1,4 +1,6 @@
-PHP Login Form 
+# PHP Login Form 
+
+![SignIn Preview](SignIn-Preview.png)
 
 ## Getting Started
 
@@ -25,6 +27,10 @@ You can now view the project output. To do this, simply open your browser and go
 ```bash
 firefox localhost/login-form
 ```
+
+
+![SignUp Preview](SignUp-Preview.png)
+
 
 
 ## شروع کنید 
